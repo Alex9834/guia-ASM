@@ -32,7 +32,7 @@ utilizar en nuestro programa
 
 // Cuenta la cantidad total de elementos de la lista
 uint32_t cantidad_total_de_elementos(lista_t *lista);
-
+    
 // Cuenta la cantidad total de elementos de la lista _packed_
 uint32_t cantidad_total_de_elementos_packed(packed_lista_t *lista);
 
