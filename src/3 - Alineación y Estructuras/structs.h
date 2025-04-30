@@ -8,7 +8,7 @@
 // arreglo: Arreglo de enteros
 // longitud: Longitud del arreglo
 typedef struct nodo_s {
-    struct nodo_s* next;   //asmdef_offset:NODO_OFFSET_NEXTS
+    struct nodo_s* next;   //asmdef_offset:NODO_OFFSET_NEXT
     uint8_t categoria;     //asmdef_offset:NODO_OFFSET_CATEGORIA
     uint32_t* arreglo;     //asmdef_offset:NODO_OFFSET_ARREGLO
     uint32_t longitud;     //asmdef_offset:NODO_OFFSET_LONGITUD
