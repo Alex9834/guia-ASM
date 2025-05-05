@@ -44,6 +44,7 @@ char *strClone(char *a);
 
 // Borra el string pasado por parámetro. Esta función es equivalente a la función free.
 void strDelete(char *a);
+    
 
 // Escribe el string en el stream indicado a través de pFile. Si el string es vacío debe escribir "NULL"
 void strPrint(char *a, FILE *pFile);
